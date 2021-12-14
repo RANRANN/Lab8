@@ -61,7 +61,7 @@ namespace Lab8._1
                 Console.WriteLine(path[i]);
                 foreach (string f in Directory.GetFileSystemEntries(path[i]))
                 {
-                    Console.WriteLine(f);
+                    Console.WriteLine("  {0}",f);
                 }
             }
             for (int j = 0; j < files.Length; j++)
