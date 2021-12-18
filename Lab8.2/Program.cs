@@ -12,18 +12,6 @@ namespace Lab8._2
         static void Main(string[] args)
         {
             string path = "C:/Users/R/Desktop/Автоматизация BIM проектирования/Lab8/Lab8.2/Lab8.2.txt";
-            #region//if (!Directory.Exists(path))
-            //{
-            //    Directory.CreateDirectory(path);
-            //}
-            //DirectoryInfo dir = new DirectoryInfo(path);
-            //{
-            //    if (!dir.Exists)
-            //    {
-            //        dir.Create();
-            //    }
-            //}
-            #endregion
             if (!File.Exists(path))
             {
                 File.Create(path);
